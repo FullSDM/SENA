@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SENA FullSDM</title>
+    <title>SENA Proyectos</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f8f9fa;
+            color: #333;
         }
         header {
-            background-color: #0056b3;
+            background-color: #007bff;
             color: white;
             padding: 20px 0;
             text-align: center;
@@ -42,8 +43,22 @@
             font-size: 3em;
             margin: 0;
         }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project {
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
         footer {
-            background-color: #0056b3;
+            background-color: #007bff;
             color: white;
             text-align: center;
             padding: 10px 0;
@@ -55,25 +70,38 @@
 </head>
 <body>
     <header>
-        <h1>SENA FullSDM</h1>
+        <h1>SENA Proyectos</h1>
         <nav>
             <a href="#inicio">Inicio</a>
-            <a href="#nosotros">Nosotros</a>
-            <a href="#cursos">Cursos</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#sobre-nosotros">Sobre Nosotros</a>
             <a href="#contacto">Contacto</a>
         </nav>
     </header>
     <div class="hero">
-        <h1>Bienvenido a SENA FullSDM</h1>
-        <p>Educación para el Trabajo</p>
+        <h1>Bienvenido a SENA Proyectos</h1>
+        <p>Mostrando los trabajos de nuestros talentosos estudiantes</p>
     </div>
     <div class="container">
-        <h2>Sobre Nosotros</h2>
-        <p>El SENA FullSDM es una institución dedicada a la formación para el trabajo...</p>
-        <!-- Agrega más contenido según sea necesario -->
+        <h2>Proyectos Recientes</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto 1.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto 2.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve del proyecto 3.</p>
+            </div>
+            <!-- Agrega más proyectos según sea necesario -->
+        </div>
     </div>
     <footer>
-        <p>&copy; 2024 SENA FullSDM. Todos los derechos reservados.</p>
+        <p>&copy; 2024 SENA Proyectos. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
